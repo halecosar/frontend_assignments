@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --navbar-bg-color: #2c3e50;
+    --bg-color:
+}
+
+.navbar {
+    background-color: var(--navbar-bg-color);
+
+    height: 100px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navigation a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Home {
+    margin-top: 33px;
+    margin-left: 96px
+}
+
+.router {
+    margin-top: 33px;
+    margin-right: 170px;
+    display: flex;
+    justify-content: space-between;
+    gap: 45px
+}
+
+.section1 {
+    background-color: lightseagreen;
+    width: 1600px;
+    height: 600px;
+}
+
+.sectionContent {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section1 img {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 550px
+}
