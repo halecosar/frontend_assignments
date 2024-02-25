@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
@@ -26,11 +27,25 @@
     color: white;
     font-size: 18px;
     font-weight: bold;
+    transition: 1.2s;
+}
+
+.navigation a:hover {
+    color: rgb(28, 188, 156, 255);
 }
 
 .Home {
     margin-top: 33px;
     margin-left: 96px
+}
+
+.Home a {
+    font-size: 18px;
+    transition: 1.2s;
+}
+
+.Home A:hover {
+    color: rgb(28, 188, 156, 255);
 }
 
 .router {
@@ -42,20 +57,120 @@
 }
 
 .section1 {
-    background-color: lightseagreen;
-    width: 1600px;
-    height: 600px;
+    background-color: rgb(28, 188, 156, 255);
+    /* width: 1600px; */
+    width: 100vw;
+    /* height: 600px; */
+    height: 100vh;
 }
 
 .sectionContent {
     color: white;
     font-size: 18px;
-    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+
+
 }
 
 .section1 img {
     width: 300px;
     height: 300px;
+
+}
+
+.sectionContent h1 {
+    font-size: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sectionContent p {
     margin-top: 20px;
-    margin-left: 550px
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contentContainer h2 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardDiv1,
+.cardDiv2 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardDiv1 img,
+.cardDiv2 img {
+    border-radius: 7%;
+    width: 400px;
+    height: 300px;
+}
+
+.cardDiv2 {
+    margin-top: 40px;
+}
+
+.cardContainer {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.cardContainer img:hover {
+    background-color: rgb(28, 188, 156, 255);
+}
+
+.h2-svg h2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+
+}
+
+.section3-bg {
+    background-color: rgb(28, 188, 156, 255);
+    height: fit-content
+}
+
+.section3Content {
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p1,
+.p2 {
+    width: 450px;
+    height: 200px;
 }
