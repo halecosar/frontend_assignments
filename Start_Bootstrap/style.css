@@ -117,6 +117,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
 
 .cardDiv1,
@@ -151,7 +152,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: #2c3e50;
     font-size: 60px;
 
 }
@@ -167,10 +168,88 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 30px;
 }
 
 .p1,
 .p2 {
+    margin-top: 40px;
     width: 450px;
     height: 200px;
+    font-size: 20px;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+button {
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 40px;
+
+}
+
+input {
+    border: none;
+}
+
+button:hover {
+    background-color: white;
+    color: #2c3e50;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    border: none;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 0;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(28, 188, 156, 255);
+    color: white;
+    border: solid 1px white;
+    border-radius: 3px;
+
+}
+
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+    background-color: #2c3e50;
+
+}
+
+.footerContainer h1,
+p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
 }
