@@ -144,9 +144,6 @@
     margin-bottom: 60px;
 }
 
-.cardContainer img:hover {
-    background-color: rgb(28, 188, 156, 255);
-}
 
 .h2-svg h2 {
     align-items: center;
@@ -211,17 +208,17 @@ form div {
 }
 
 label {
-    display: inline-block;
-    width: 100px;
-    border: none;
+    display: block;
+    margin-bottom: 5px;
 }
 
-
+input,
 textarea {
     width: 100%;
     padding: 5px;
-    border-radius: 3px;
-    border: 0;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
 }
 
 button {
@@ -231,7 +228,8 @@ button {
     color: white;
     border: solid 1px white;
     border-radius: 3px;
-
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 .footerContainer {
@@ -257,4 +255,21 @@ button {
 
 .footerPart h1 {
     margin-bottom: 20px;
+}
+
+.footerCopyright {
+    background-color: rgb(26, 37, 47);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footerCopyright p {
+    color: white;
+}
+
+.line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
 }
