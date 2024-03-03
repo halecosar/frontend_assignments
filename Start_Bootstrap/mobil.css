@@ -1,0 +1,42 @@
+@media only screen and (max-width: 576px) {
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Home {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .router {
+        margin-top: 30px;
+        margin-right: 10px;
+        gap: 20px
+    }
+
+    .cardDiv1,
+    .cardDiv2 {
+        display: block;
+        flex-direction: column;
+
+    }
+
+    .cardContainer {
+        flex-direction: column;
+        margin-left: 90px;
+    }
+
+    .section3Content {
+        display: block;
+        margin-left: 80px;
+    }
+
+    .footerContainer {
+        display: block;
+    }
+
+    .footerPart {
+        margin-left: 80px;
+    }
+}
